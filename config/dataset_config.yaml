@@ -1,0 +1,20 @@
+# Dataset Configuration
+
+dataset:
+  name: Speech Detection Dataset
+  version: 1.0
+  description: Configuration file for dataset used in speech detection tasks.
+
+parameters:
+  audio_path: /path/to/audio/files
+  sample_rate: 22050
+  duration: 5.0  # seconds
+  channels: 1  # mono audio
+  pre_emphasis: 0.97
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+
